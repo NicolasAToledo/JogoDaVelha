@@ -27,25 +27,16 @@ public class PrincipalJogoVelha {
 		System.out.println(geradorAleatorio.nextInt(3));
 		geradorAleatorio.nextInt(11);//numero aleatorio entre 0 e 10
 		System.out.println(geradorAleatorio.nextInt(11));*/
-		/*char xis = 'X';
-		char bola = ' ';
 		
-		System.out.println("Seja bem vindo(a) ao jogo da velha");
-		System.out.println(xis +" "+"| "+ bola + " | " + xis);
-		System.out.println("_   _   _");
-		System.out.println(xis +" "+"| "+ bola + " | " + xis);
-		System.out.println("_   _   _");
-		System.out.println(xis +" "+"| "+ bola + " | " + xis);
-		System.out.println();*/
 		int i=0;
-		FuncaoJogo chama;
-		chama = new FuncaoJogo();
+		FuncaoJogo jogoDaVelha;
+		jogoDaVelha = new FuncaoJogo();
 		
-		chama.iniciaTabuleiro();
+		jogoDaVelha.iniciaTabuleiro();
 		
-		chama.imprimiTabuleiro();
+		jogoDaVelha.imprimiTabuleiro();
 		
-		chama.populaTabuleiro();
+		jogoDaVelha.populaTabuleiro();
 		
 		
 		
